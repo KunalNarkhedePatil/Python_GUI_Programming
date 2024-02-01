@@ -5,7 +5,6 @@ def terminate():
     print("Existing the app")
     sys.exit(0)
 import sys
-
 def main():
     
     root_window=tkinter.Tk()
