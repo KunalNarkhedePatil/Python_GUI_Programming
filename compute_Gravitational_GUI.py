@@ -24,7 +24,6 @@ def do_compute():
         error_msg="Error Type:{}. Error Message:{}.Try again".format(str(exc_name),str(exc_data))
         messagebox.askquestion("Error",error_msg)
         
-        
 def do_clear():
     global m1_str_var,m2_str_var,r_str_var,output_str_var,default_msg
     empty_str =''
