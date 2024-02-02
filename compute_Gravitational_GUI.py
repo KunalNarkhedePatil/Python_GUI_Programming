@@ -33,7 +33,6 @@ def do_clear():
     r_str_var.set(empty_str)
     output_str_var.set(default_msg)
     
-
 def main():
     global m1_str_var,m2_str_var,r_str_var,output_str_var,default_msg
     root_window=Tk()
